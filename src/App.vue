@@ -1,18 +1,14 @@
 <template>
   <div id="app">
     <TheHeader></TheHeader>
-
-    <TheMain>
-      <MeetAuthor></MeetAuthor>
-      <PubSection></PubSection>
-      <PubSection2></PubSection2>
-      <ReviewSection></ReviewSection>
-      <EventSection></EventSection>
-      <NewsSection></NewsSection>
-      <AboutSection></AboutSection>
-      <ArticlesSection></ArticlesSection>
-    </TheMain>
-
+    <MeetAuthor></MeetAuthor>
+    <PubSection></PubSection>
+    <PubSection2></PubSection2>
+    <ReviewSection></ReviewSection>
+    <EventSection></EventSection>
+    <NewsSection></NewsSection>
+    <AboutSection></AboutSection>
+    <ArticlesSection></ArticlesSection>
     <TheFooter>
 
     </TheFooter>
@@ -23,7 +19,6 @@
 <script>
 
 import TheHeader from './components/TheHeader.vue'
-import TheMain from './components/TheMain.vue'
 import MeetAuthor from './components/MeetAuthor.vue'
 import PubSection from './components/PubSection.vue'
 import PubSection2 from './components/PubSection2.vue'
@@ -40,7 +35,6 @@ export default {
   name: 'App',
   components: {
     TheHeader,
-    TheMain,
     MeetAuthor,
     PubSection,
     PubSection2,

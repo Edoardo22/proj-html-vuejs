@@ -28,7 +28,7 @@
                     <div class="col-6 d-flex justify-content-center pt-5 ps-5">
                         <img src="img/book-widget.png">
                     </div>
-                    <div class="col-6 pt-5">
+                    <div class="col-6 pt-5 pe-0">
                         <div class=" fs-4 pb-3">LASTEST BOOK RELEASE</div>
                         <div class="text-warning pb-3">D. VAUGHN AUTOBIOGRAPHY</div>
                           <div class="">Best-selling author and the most influential public intellectual in the western world right now.</div>

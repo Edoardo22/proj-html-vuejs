@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-    <TheHeader>
-      <NavBar></NavBar>
-    </TheHeader>
+    <TheHeader></TheHeader>
 
     <TheMain>
+      <MeetAuthor></MeetAuthor>
       <PubSection></PubSection>
       <PubSection2></PubSection2>
       <ReviewSection></ReviewSection>
@@ -24,8 +23,8 @@
 <script>
 
 import TheHeader from './components/TheHeader.vue'
-import NavBar from './components/NavBar.vue'
 import TheMain from './components/TheMain.vue'
+import MeetAuthor from './components/MeetAuthor.vue'
 import PubSection from './components/PubSection.vue'
 import PubSection2 from './components/PubSection2.vue'
 import ReviewSection from './components/ReviewSection.vue'
@@ -41,8 +40,8 @@ export default {
   name: 'App',
   components: {
     TheHeader,
-    NavBar,
     TheMain,
+    MeetAuthor,
     PubSection,
     PubSection2,
     ReviewSection,

@@ -8,7 +8,7 @@
                 <div class="text-white pb-2 fs-3">New Audiobook</div>
                 <div class="text-warning pb-3">NO TIME TOREAD? NO PROBLEM. LISTEN TO IT</div>
                 <div class="text-light">Donec fringilla nunc eu tripis dignissim, at euismod sapien ticidunt. Maecenas elefrnd congue cursus.</div>
-                <div class="d-flex pt-3">
+                <div class="d-flex pt-3 justify-content-between">
                     <img src="img/audible-logo.png">
                     <img src="img/bn-logo-tall.png">
                     <img src="img/kindle-logo-tall.png">

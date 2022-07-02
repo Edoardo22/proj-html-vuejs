@@ -35,8 +35,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-center justify-content-center">
-                    <button type="button" class="btn btn-success px-5 py-2">Buy on Amazon</button>
-                    <button type="button" class="btn btn-success px-5 py-2">Buy on App Store</button>
+                    <button type="button" class="btn border-success px-5 py-2 d-flex align-items-end"> <img src="img/amazon_icon.png" class="icon-shop me-2"> Buy on Amazon</button>
+                    <button type="button" class="btn border-success px-5 py-2 d-flex  align-items-end "><img src="img/Apple_logo_black.svg.png" class="icon-shop me-2">  Buy on App Store</button>
                 </div>
             </div>
             </div>
@@ -91,6 +91,10 @@ export default {
 
 body {
     font-family: 'Roboto', sans-serif !important;
+}
+
+.icon-shop {
+    width: 20px;
 }
 
 .allura {

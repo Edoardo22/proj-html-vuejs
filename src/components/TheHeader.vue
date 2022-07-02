@@ -5,7 +5,7 @@
                 <div>
                     <img src="img/author-logo-round-200x205.png" alt="logo" class="img-fluid top-logo">
                 </div>
-                <div class="text-warning pb-4 fs-1">Damon Vaugh</div>
+                <div class="text-warning pb-4 allura">Damon Vaugh</div>
               <div class="text-white fs-1 pb-4">Best-selling author and the most influential public intellectual in the western world right now.</div>  
               <div class="text-light fs-4">- The New York Times</div>
                 </div>
@@ -86,6 +86,18 @@ export default {
 
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.allura {
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+}
+
 .jumbo-bg {
     background-image: url("../../public/img/hero-07-2x.jpg");
     background-size: cover;

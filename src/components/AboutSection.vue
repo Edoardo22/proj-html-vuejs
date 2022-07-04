@@ -5,12 +5,13 @@
           <div class="text-success pb-5">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</div>
         </div>
    <div class="container d-flex">
-    <div v-for="(item,i) in AboutList"  :key="i" class="position-relative">
-   
-    <img :src="item.url" alt="" class="about-img w-75 h-100">
-    <div class="text-light pb-2 ">About Me</div>
     
+    <div v-for="(item,i) in AboutList" class="about-img flex-grow-1 mx-4" :key="i" v-bind:style="{ backgroundImage: 'url(' + item.url + ')' }">
+    <div class="text-center d-flex flex-column justify-content-end h-100">
+    <div class="text-white pb-3 fs-3">{{item.titolo}}</div>
+    <div class="text-warning pb-4">{{item.testo}}</div>
     </div>
+    </div>`
    </div>
 
      </div>
@@ -47,6 +48,10 @@ export default {
 <style lang="scss">
 .about-img {
     border-bottom-right-radius: 16%;
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    filter: drop-shadow(2px 2px 2.5px black);
 }
 </style>

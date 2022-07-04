@@ -93,6 +93,10 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
+.text-off {
+    color: rgba(255, 255, 255, 0.781) !important;
+}
+
 .icon-shop {
     width: 20px;
 }

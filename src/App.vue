@@ -9,9 +9,7 @@
     <NewsSection></NewsSection>
     <AboutSection></AboutSection>
     <ArticlesSection></ArticlesSection>
-    <TheFooter>
-
-    </TheFooter>
+    <TheFooter></TheFooter>
 
   </div>
 </template>

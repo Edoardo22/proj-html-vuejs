@@ -8,8 +8,9 @@
     
     <div v-for="(item,i) in AboutList" class="about-img flex-grow-1 mx-4" :key="i" v-bind:style="{ backgroundImage: 'url(' + item.url + ')' }">
     <div class="text-center d-flex flex-column justify-content-end h-100">
-    <div class="text-white pb-3 fs-3">{{item.titolo}}</div>
-    <div class="text-warning pb-4">{{item.testo}}</div>
+    <div class="text-white pb-2 fs-3 ">{{item.titolo}}</div>
+    <div class="w-25 border-bottom align-self-center"></div>
+    <div class="text-warning pb-4 pt-3">{{item.testo}}</div>
     </div>
     </div>`
    </div>

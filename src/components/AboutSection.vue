@@ -7,7 +7,7 @@
    <div class="container d-flex">
     
     <div v-for="(item,i) in AboutList" class="about-img flex-grow-1 mx-4" :key="i" v-bind:style="{ backgroundImage: 'url(' + item.url + ')' }">
-    <div class="text-center d-flex flex-column justify-content-end h-100">
+    <div class="text-center d-flex flex-column justify-content-end h-100 card-about">
     <div class="text-white pb-2 fs-3 ">{{item.titolo}}</div>
     <div class="w-25 border-bottom align-self-center"></div>
     <div class="text-warning pb-4 pt-3">{{item.testo}}</div>
@@ -54,5 +54,10 @@ export default {
     background-position: center;
     height: 500px;
     filter: drop-shadow(2px 2px 2.5px black);
+}
+
+.card-about:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgba(238, 238, 238, 0) 25%, rgba(0, 0, 0, 0.178) 50%, rgba(0, 0, 0, 0.233)) 75%, ;
 }
 </style>

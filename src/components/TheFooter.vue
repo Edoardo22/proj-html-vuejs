@@ -1,5 +1,5 @@
 <template lang="">
-
+    
     <div class="jumbo-bg-footer container-fluid text-white">
          
         <div class="d-flex pt-5 ps-5">
@@ -33,7 +33,7 @@
     <div class="text-center pt-5 pb-5 text-off">@ Copyright 2012 - 2020 | Avada Theme by <span class="text-white">ThemeFusion</span> | All Rights Reserved | Powered by <span class="text-white">Boolean</span> </div>
         </div>
  
-     
+   
      
        
     
@@ -111,6 +111,9 @@ export default {
     background-image: url("../../public/img/hero-07-2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+.jumbo-bg-footer::before {
+    filter: brightness(0.7);
 }
 </style>

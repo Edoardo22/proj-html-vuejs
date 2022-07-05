@@ -46,4 +46,12 @@ export default {
 
 
 <style lang="scss">
+.card:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
+.card:hover .card-body {
+    filter: brightness(70%);
+}
 </style>

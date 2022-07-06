@@ -3,7 +3,8 @@
         <div class="row d-flex justify-content-center">
             <div class="col-8 ">
      <div class="text-light fs-2 py-3 pt-5">Subscribe To My Newsletter</div>
-     <div class="text-warning pb-4">BE NOTIFIED ABOUT BOOK SINGING TOUR DATES</div>
+     <div v-if="!subscribe" class="text-warning pb-4">BE NOTIFIED ABOUT BOOK SINGING TOUR DATES</div>
+      <div v-else class="text-warning pb-4">THANKS YOU!</div>
      <div class="d-flex justify-content-center">
      <input type="email" class="rounded border-0 me-3 px-2" placeholder="insert your email ..*">
      <button class="btn btn-success px-3 py-1 flex-grow-1" @click="subText">Subscribe</button>

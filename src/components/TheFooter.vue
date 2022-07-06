@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div>
-                    <div v-for="(item,i) in socialList"  :key="i" :class="item.url" class="px-2 fs-5"></div>
+                    <div v-for="(item,i) in socialList"  :key="i" :class="item.url" class="px-2 fs-5 icons"></div>
                 </div>
             </div>
         </div>

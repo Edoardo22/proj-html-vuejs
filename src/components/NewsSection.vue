@@ -6,9 +6,10 @@
      <div class="text-warning pb-4">BE NOTIFIED ABOUT BOOK SINGING TOUR DATES</div>
      <div class="d-flex justify-content-center">
      <input type="email" class="rounded border-0 me-3 px-2" placeholder="insert your email ..*">
-     <button class="btn btn-success px-3 py-1 flex-grow-1">Subscribe</button>
+     <button class="btn btn-success px-3 py-1 flex-grow-1" @click="subText">Subscribe</button>
      </div>
-     <div class="text-light py-5">Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt.</div>
+     <div class="text-light py-5" v-if="!subscribe">Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt.</div>
+     <div class="text-light py-5" v-else>Grazie di esserti iscritto alla nostra News Letter! Riceverai solo le mail importanti, <br> niente spam.</div>
   </div>
   </div>
    </div>
@@ -18,7 +19,12 @@
 export default {
     data() {
         return {
-
+            subscribe: false,
+        }
+    },
+    methods: {
+        subText() {
+            this.subscribe = true;
         }
     }
 }
